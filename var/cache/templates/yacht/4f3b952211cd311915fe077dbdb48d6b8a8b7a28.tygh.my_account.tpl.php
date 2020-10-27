@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2020-10-26 21:43:59
+<?php /* Smarty version Smarty-3.1.21, created on 2020-10-27 22:22:37
          compiled from "C:\OpenServer\domains\cscart\design\themes\yacht\templates\blocks\my_account.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:15727199745f9718ef65f180-40231357%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '4f3b952211cd311915fe077dbdb48d6b8a8b7a28' => 
     array (
       0 => 'C:\\OpenServer\\domains\\cscart\\design\\themes\\yacht\\templates\\blocks\\my_account.tpl',
-      1 => 1603732558,
+      1 => 1603826554,
       2 => 'tygh',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.21',
+  'unifunc' => 'content_5f9718ef7000c7_17604862',
   'variables' => 
   array (
     'runtime' => 0,
@@ -30,8 +32,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'return_current_url' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5f9718ef7000c7_17604862',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5f9718ef7000c7_17604862')) {function content_5f9718ef7000c7_17604862($_smarty_tpl) {?><?php if (!is_callable('smarty_function_live_edit')) include 'C:/OpenServer/domains/cscart/app/functions/smarty_plugins\\function.live_edit.php';
 if (!is_callable('smarty_block_hook')) include 'C:/OpenServer/domains/cscart/app/functions/smarty_plugins\\block.hook.php';
@@ -68,11 +68,8 @@ if (!empty($_capture_buffer)) {
             <?php $_smarty_tpl->_capture_stack[0][] = array("title", null, null); ob_start(); ?>
                 <a class="ty-account-info__title" href="<?php echo htmlspecialchars(fn_url("profiles.update"), ENT_QUOTES, 'UTF-8');?>
 ">
+                    <i class="fas fa-bars"></i>
                     <i class="ty-icon-moon-user"></i>
-                    <span class="hidden-phone" <?php echo smarty_function_live_edit(array('name'=>"block:name:".((string)$_smarty_tpl->tpl_vars['block']->value['block_id'])),$_smarty_tpl);?>
-><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['title']->value, ENT_QUOTES, 'UTF-8');?>
-</span>
-                    <i class="ty-icon-down-micro ty-account-info__user-arrow"></i>
                 </a>
             <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
 if (!empty($_capture_buffer)) {
@@ -222,11 +219,8 @@ if (!empty($_capture_buffer)) {
             <?php $_smarty_tpl->_capture_stack[0][] = array("title", null, null); ob_start(); ?>
                 <a class="ty-account-info__title" href="<?php echo htmlspecialchars(fn_url("profiles.update"), ENT_QUOTES, 'UTF-8');?>
 ">
+                    <i class="fas fa-bars"></i>
                     <i class="ty-icon-moon-user"></i>
-                    <span class="hidden-phone" <?php echo smarty_function_live_edit(array('name'=>"block:name:".((string)$_smarty_tpl->tpl_vars['block']->value['block_id'])),$_smarty_tpl);?>
-><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['title']->value, ENT_QUOTES, 'UTF-8');?>
-</span>
-                    <i class="ty-icon-down-micro ty-account-info__user-arrow"></i>
                 </a>
             <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
 if (!empty($_capture_buffer)) {

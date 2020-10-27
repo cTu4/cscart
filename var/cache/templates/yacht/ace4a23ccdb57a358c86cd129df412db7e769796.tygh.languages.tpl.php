@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2020-10-26 21:43:57
+<?php /* Smarty version Smarty-3.1.21, created on 2020-10-27 21:39:28
          compiled from "C:\OpenServer\domains\cscart\design\themes\responsive\templates\blocks\languages.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:6675624505f9718eddc0c96-73106009%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ace4a23ccdb57a358c86cd129df412db7e769796' => 
     array (
       0 => 'C:\\OpenServer\\domains\\cscart\\design\\themes\\responsive\\templates\\blocks\\languages.tpl',
-      1 => 1603732555,
+      1 => 1603823701,
       2 => 'tygh',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.21',
+  'unifunc' => 'content_5f9718eddf66b0_63476564',
   'variables' => 
   array (
     'runtime' => 0,
@@ -30,8 +32,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'auth' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5f9718eddf66b0_63476564',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5f9718eddf66b0_63476564')) {function content_5f9718eddf66b0_63476564($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_count')) include 'C:/OpenServer/domains/cscart/app/functions/smarty_plugins\\modifier.count.php';
 if (!is_callable('smarty_function_set_id')) include 'C:/OpenServer/domains/cscart/app/functions/smarty_plugins\\function.set_id.php';

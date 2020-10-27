@@ -24,3 +24,24 @@ msgctxt "Languages::covid"
 msgid "covid"
 msgstr "Get the latest on our COVID-19 response"
 
+msgctxt "Languages::boats"
+msgid "boats"
+msgstr "Boats"
+
+msgctxt "Languages::experiences"
+msgid "experiences"
+msgstr "Experiences"
+
+msgctxt "Languages::destinations"
+msgid "destinations"
+msgstr "Destinations"
+
+msgctxt "Languages::events"
+msgid "events"
+msgstr "Events"
+
+msgctxt "Languages::add_boat"
+msgid "add_boat"
+msgstr "ADD BOATS"
+
+
