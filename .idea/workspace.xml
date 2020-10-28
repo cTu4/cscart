@@ -13,164 +13,15 @@
     <list default="true" id="a7369d82-d4e3-45bf-b793-12295d7f67ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design/themes/yacht/css/addons/my_module/styless.less" beforeDir="false" afterPath="$PROJECT_DIR$/design/themes/yacht/css/addons/my_module/styless.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/themes/yacht/templates/addons/my_module/hooks/index/links.post.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/design/themes/yacht/templates/addons/my_module/hooks/index/links.post.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/themes/yacht/templates/blocks/my_account.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/design/themes/yacht/templates/blocks/my_account.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design/themes/yacht/templates/blocks/static_templates/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/design/themes/yacht/templates/blocks/static_templates/header.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/1/theme_editor/standalone.3e71c99701bf86bfaa6fcb017989f9081603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/1/theme_editor/standalone.5d8fd64e7042d99f7022c23dc49abf111603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/1/theme_editor/standalone.62c4fbf60316f2f04a244586cb66a6581603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/1/theme_editor/standalone.7a63d94ae441927c3522ba4a01711fc41603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/1/theme_editor/standalone.db91e94b809797dd7d53ec0847781bf41603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/backend/css/standalone.3045da8826bddd68d0353542ba6c704a1603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/yacht/css/standalone.38e7224b2e00f9f7ba86ff0ddbf7c8a71603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/yacht/css/standalone.3e71c99701bf86bfaa6fcb017989f9081603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/yacht/css/standalone.5d8fd64e7042d99f7022c23dc49abf111603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/yacht/css/standalone.62c4fbf60316f2f04a244586cb66a6581603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/yacht/css/standalone.7a63d94ae441927c3522ba4a01711fc41603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/yacht/css/standalone.7cc515c0450dbc761c8fb83508517d5d1603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/yacht/css/standalone.c113f1afc63c98905e750e675c1f8aca1603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/yacht/css/standalone.d13747560f2ccfa966601ff938e95ecc1603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/yacht/css/standalone.db91e94b809797dd7d53ec0847781bf41603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/yacht/css/standalone.e6d8cd0c47cef080bb101f9f07af6f071603739128.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-9e4ac1da53f5246b4772648b9b3816de1603739128.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-d2cd0b2d93b8414be700b6f2700552811603739124.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-d2cd0b2d93b8414be700b6f2700552811603739128.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/html_purifier/HTML/4.6.0,9e5713928e19c6111d912943743e92a18add52d4,1.ser" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/registry/assets_cache_key/1/time" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/registry/assets_cache_key/1/time" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/registry/assets_cache_key/time" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/registry/assets_cache_key/time" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/1/C_GET_index_index_ru_RUB" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/1/C_GET_index_index_ru_RUB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_addons_manage_ru_RUB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/1/C_GET_index_index_ru_RUB" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/registry/seo_cache_static/1/cache_customerru" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/registry/seo_cache_static/1/cache_customerru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/template_overrides/1/cache_customera51ab4cee106a6e63897321b006fed56" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/registry/template_overrides/1/cache_customera51ab4cee106a6e63897321b006fed56" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/registry/thooks_A/cache_admin__1" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/registry/thooks_A/cache_admin__1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/registry/thooks_C/1/cache_customer__1" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/registry/thooks_C/1/cache_customer__1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/00244e9f7c5fc510332c37da256aad29" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/00244e9f7c5fc510332c37da256aad29" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/009ef71e3171eea65c35b24eb9eaafb9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/01c8f1aecf47a19292a65660de6a148c" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/01c8f1aecf47a19292a65660de6a148c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/01ee9cb23b7d398f0498b5200f56a4bc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/03af731837fb81afc029a21a4f1e789b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/05dac0c7c41de2abe42aba3063eb7bf2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/0924d1b92fbfd9a45bb5d4254b87a3c5" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/0924d1b92fbfd9a45bb5d4254b87a3c5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/09ec7a032c381324e051d0ab0b8af3ab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/0aef399c6f9f2b227c1c79aea5210345" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/0db5d021bac756b237011ce1244900dc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/11a8141c2b4534574940ecc87a5688d4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/11bc1911af9e82a4fd3cca1a975935f6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/17fa5dc7683add8e6159bc94d8d8a034" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/1bcd97a0f41e2c1aafe1eb4eb796d164" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/1c938b3a1ffba554ff3c9d7ca75ee389" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/1d36d863cdc362f1291a9eb17fa3f410" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/1d36d863cdc362f1291a9eb17fa3f410" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/23ade1e0058bdfeff15b581bd66ad302" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/23ade1e0058bdfeff15b581bd66ad302" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/2439fbd796fd20e4709e12a7cc5e73ac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/274541d44f03e44757ac153455399c1c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/274918c7f937fc6322c0cc4f0f9dc20e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/2a3843fb5a36aa95ba784605f66f1ea5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/2aaf759a9efa47d97173619760fc720c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/2f115e48c5b2d0a415a79866bdeb858b" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/2f115e48c5b2d0a415a79866bdeb858b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/308599b1d30f665157230cd41b8ee3c0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/32fcfaa187510b78b270a8f931365346" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/3673823bd75f957acd8a809742d6f68f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/392cfd87d28ba652496a3bc4d9952162" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/392cfd87d28ba652496a3bc4d9952162" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/3d7f694b4c5623d653860505b8fad35c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/3fe7ab8bfb4670be3dbeaa2776532bb9" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/3fe7ab8bfb4670be3dbeaa2776532bb9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/4002e8c646d014b1b70a79e10788526a" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/4002e8c646d014b1b70a79e10788526a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/4041c4331902ff8ff495ea85da484e5e" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/4041c4331902ff8ff495ea85da484e5e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/41d6579e299caa319b6c783f2a5ad9c8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/433601825862547a20c2633877fbc42f" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/433601825862547a20c2633877fbc42f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/441a62d647d78d7244f9404eeeb473ef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/47f98eb81f5473c09e8ffdf9ba688b15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/4820751e534fc890487d3ea7a509ffc1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/4aa90ce4f62547d54f3dbac3de9245dd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/4ab8b5ac143f8d624905cf93ba2fb0fc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/4bef3dc666f9e4c329d05574b1e85ad7" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/4bef3dc666f9e4c329d05574b1e85ad7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/4d93400867badcdc6d655c12baa1b770" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/4e79f399fe2e645b31ca9f2c16c4c3c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/55740b9e83b3a5b288b1dd0f47d1f746" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/57e22c89721de1277e20b23b801b7cb8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/583b0f19c110cfb04dddc78b06ba8b44" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/5bae858e0633e6bb11217cfe98205667" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/5f47b5dbd09fa66d301e3ffe1cda43c5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/62ca197fe9fa9cfaed513a574cfcc5bd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/67b4331bee729e43f54bba85619ab6a2" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/67b4331bee729e43f54bba85619ab6a2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/6904ccb525936b856cfaa5895d294725" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/6968ebe2533303f4e5729cef26dd9c11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/69c135a857e2d19556c7e407c5d355ff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/6b600d60ad298b2ee88a487028423ecd" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/6b600d60ad298b2ee88a487028423ecd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/6c760d089413643e43e79942d287c052" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/6d943adbc8e8e3c63862f62322efe1ac" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/6d943adbc8e8e3c63862f62322efe1ac" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/70f0d952eebdd439571281c4f2d1ad1d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/76bee221c75ac0d31cbd19bfbba0d4ec" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/76bee221c75ac0d31cbd19bfbba0d4ec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/7b3cf36d34b70f3466a1b4e2d3ae3b9f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/7be75ea0ef4d0c112db40a76461afea9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/826995d0542d09102ef0380d3095a369" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/82b5a7c3a99e57bd07e579af1752337c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/886c363b88918d59be94014afa1c31e1" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/886c363b88918d59be94014afa1c31e1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/8b393cc99d65c5e0a7b4d3aff4d0e921" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/8ba76d81d3cb14b97ac08580913ee3ce" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/927c34890999ae58a5814dc671fada57" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/92a9220c44b97bbaa798ed90ef5ad6f6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/93906724755d058ef811fb072efb3314" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/973e53dbcc2a47fd08d48bd1eba87624" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/973e53dbcc2a47fd08d48bd1eba87624" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/98681c7f2167e794ee31e9dd75f4b71a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/9c967ce6d29ecd2c8f63e75c8dedb2a0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/9ca1057994259903c10815eb8461bf27" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/9ca1057994259903c10815eb8461bf27" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/9e7e9b86a62723af40c6e5c2b714a43b" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/9e7e9b86a62723af40c6e5c2b714a43b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/9ec57426bbdc1f5e3772240dcfd05a2d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/9fa491b413055448d919a03ee7959acd" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/9fa491b413055448d919a03ee7959acd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/9ff76a70aea0326d70a0d913dd4b4c94" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/a240fbcd5dd62c7c2d73bc91020f8e99" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/a38dc20b39c6ce279199e3fba98db1a9" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/a38dc20b39c6ce279199e3fba98db1a9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/a481e3236101468f08b14bf53a9a5c6d" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/a481e3236101468f08b14bf53a9a5c6d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/a8fba2c96165c64b457220c5d1687c80" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/a8fba2c96165c64b457220c5d1687c80" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/ab80a1926c51bdcf3cedc3140ee5c20e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/ac5a89e12aeb9db3cf86c9606c880d49" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/acbd521e028e6f794adec8de6868889d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/aef60c9e7912d5f44ff2064826c7072d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/af2aa1362dd556cbe5465b3ebb8fec30" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/b31799fdfd5b7423e337706abaf96be0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/b3536c04d5474c59f0150b471fc38bac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/b63422d803667d3bca8aa7baf499e860" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/b97d7fa6be47fecd03abc480f78f474b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/ba7de953503eba31b84f98302159639f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/bb860743c4d79709bc5d55977bb86db6" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/bb860743c4d79709bc5d55977bb86db6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/c236533ae7784d1695724af756d8e3a6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/c26c9083d95eb8dc2406fd54184aec12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/c32f4bb9c2bd2c61ac9ce540f3a10c30" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/c33486194bf8e18ebf3c1d35ab04437c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/c3f092c7a95b2cd5e61675e6603fbc49" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/c50b10a9d915fa8a7f2d982c94f80fec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/c951b7292a4ffe6dcbf1daa6f04a61e4" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/c951b7292a4ffe6dcbf1daa6f04a61e4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/caa64d1c6d810464d8e60791c66cc78a" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/caa64d1c6d810464d8e60791c66cc78a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/d015b6fa6a7659c3ea8c9e73b6e24c2d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/d07c80f477f966a185640033033fcd05" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/dfa01e51f3754b74f848360091017b16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/e1452b0cfb9156fd44908c0b413d341d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/e2876a65b56beada8273b97001d4b1f4" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/e2876a65b56beada8273b97001d4b1f4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/e4b1fb1a92f3b80b375c96e0b5cf889d" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/e4b1fb1a92f3b80b375c96e0b5cf889d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/e53fa978dd7b44ab617996f5e4df0813" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/e778ba444ce26d6b2c488d4065896efe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/e825c3a71d14df67715704c3c327c401" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/e825c3a71d14df67715704c3c327c401" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/e8ed151de1f9a159e19a2482ff4fc4ff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/e8fcf134657eeac119405334b457866f" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/e8fcf134657eeac119405334b457866f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/e93df4cb95bba26de59ad0c18f62ee2b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/eae52c9737f774f178250c2177a20921" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/ec57a8486ffae9800d393be88669624a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/ec80b5f308cf8b64472bbf02e88966dd" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/ec80b5f308cf8b64472bbf02e88966dd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/f32c01c73db2b1d54b106e455fa2fe78" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/f543305ab3e66a7ad0d3a1a04cc1cc44" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/f7f270a79466f75f498f0bdab44a3fed" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/f7f270a79466f75f498f0bdab44a3fed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/f8f0988492bbf3bc8bcde0f1433112b7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/f9931a9f9ec55fde294e50fccd92b949" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/static/less/fdb677ba851851f9d3b7247c92e0ea93" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/fdb677ba851851f9d3b7247c92e0ea93" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/fe5ffea3e6c8f779bc52f7c49148fb57" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/fe5ffea3e6c8f779bc52f7c49148fb57" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/static/less/ffb9c59f1c7115da6466754350363ca9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/templates/yacht/0ce887601a1cfd83ca8b4b8e944f8d91867ad136.tygh.header.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/templates/yacht/0ce887601a1cfd83ca8b4b8e944f8d91867ad136.tygh.header.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/templates/yacht/4f3b952211cd311915fe077dbdb48d6b8a8b7a28.tygh.my_account.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/templates/yacht/4f3b952211cd311915fe077dbdb48d6b8a8b7a28.tygh.my_account.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/templates/yacht/6beff83a76b306e4bee392ca740bccfce47b49d4.tygh.select_object.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/templates/yacht/6beff83a76b306e4bee392ca740bccfce47b49d4.tygh.select_object.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/templates/yacht/ace4a23ccdb57a358c86cd129df412db7e769796.tygh.languages.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/templates/yacht/ace4a23ccdb57a358c86cd129df412db7e769796.tygh.languages.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/templates/yacht/beb4890f0920c98716eed01358dfcffeb41274d3.tygh.links.post.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/templates/yacht/beb4890f0920c98716eed01358dfcffeb41274d3.tygh.links.post.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/templates/yacht/e491d68739052d693cfa90787a3c75dd0de4e4cf.tygh.onclick_dropdown.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/templates/yacht/e491d68739052d693cfa90787a3c75dd0de4e4cf.tygh.onclick_dropdown.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/langs/ru/addons/my_module.po" beforeDir="false" afterPath="$PROJECT_DIR$/var/langs/ru/addons/my_module.po" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,19 +46,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -218,7 +56,8 @@
       <updated>1603731961659</updated>
       <workItem from="1603731964279" duration="7668000" />
       <workItem from="1603817934281" duration="54000" />
-      <workItem from="1603818083919" duration="9713000" />
+      <workItem from="1603818083919" duration="9908000" />
+      <workItem from="1603902390049" duration="1628000" />
     </task>
     <servers />
   </component>

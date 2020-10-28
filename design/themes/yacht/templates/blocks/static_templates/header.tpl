@@ -16,12 +16,13 @@
                 </svg>
                 <a href="#">{__('add_boat')}</a>
             </div>
-            {include file="blocks/languages.tpl" format="name"}
+            {include file="blocks/currencies.tpl" format="name"}
+
+            {include file="blocks/languages.tpl" }
             <div class="weather">
                 <img src="images/Summer.svg" alt="weather">
                 <span>+24°C</span>
             </div>
-{*                {include file="blocks/currencies.tpl" format="name"}*}
            {capture name='content'}
                {include file="blocks/my_account.tpl"}
            {/capture}
