@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2020-10-28 19:35:09
+<?php /* Smarty version Smarty-3.1.21, created on 2020-10-29 21:39:05
          compiled from "C:\OpenServer\domains\cscart\design\themes\yacht\templates\blocks\static_templates\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1572963005f9719667f9d17-04626007%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '0ce887601a1cfd83ca8b4b8e944f8d91867ad136' => 
     array (
       0 => 'C:\\OpenServer\\domains\\cscart\\design\\themes\\yacht\\templates\\blocks\\static_templates\\header.tpl',
-      1 => 1603902905,
+      1 => 1603996735,
       2 => 'tygh',
     ),
   ),
@@ -60,7 +60,7 @@ $_smarty_tpl->_capture_stack[0][] = array("template_content", null, null); ob_st
                 <span>+24°C</span>
             </div>
            <?php $_smarty_tpl->_capture_stack[0][] = array('content', null, null); ob_start(); ?>
-               <?php echo $_smarty_tpl->getSubTemplate ("blocks/my_account.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+               <?php echo $_smarty_tpl->getSubTemplate ("blocks/my_account.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('auth'=>$_smarty_tpl->tpl_vars['auth']->value), 0);?>
 
            <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
 if (!empty($_capture_buffer)) {
@@ -126,7 +126,7 @@ echo Smarty::$_smarty_vars['capture']['template_content'];
                 <span>+24°C</span>
             </div>
            <?php $_smarty_tpl->_capture_stack[0][] = array('content', null, null); ob_start(); ?>
-               <?php echo $_smarty_tpl->getSubTemplate ("blocks/my_account.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+               <?php echo $_smarty_tpl->getSubTemplate ("blocks/my_account.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('auth'=>$_smarty_tpl->tpl_vars['auth']->value), 0);?>
 
            <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
 if (!empty($_capture_buffer)) {

@@ -42,6 +42,22 @@ msgstr "Events"
 
 msgctxt "Languages::add_boat"
 msgid "add_boat"
-msgstr "ADD BOATS"
+msgstr "Добавить лодки"
+
+msgctxt "Languages::hosts_guides"
+msgid "hosts_guides"
+msgstr "Хозяева"
+
+msgctxt "Languages::services"
+msgid "services"
+msgstr "Услуги"
+
+msgctxt "Languages::hosts_community"
+msgid "hosts_community"
+msgstr "Hosts community"
+
+msgctxt "Languages::saved"
+msgid "saved"
+msgstr "Сохраненных"
 
 

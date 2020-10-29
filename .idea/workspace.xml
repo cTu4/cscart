@@ -45,6 +45,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,7 +58,10 @@
       <workItem from="1603731964279" duration="7668000" />
       <workItem from="1603817934281" duration="54000" />
       <workItem from="1603818083919" duration="9908000" />
-      <workItem from="1603902390049" duration="1628000" />
+      <workItem from="1603902390049" duration="2268000" />
+      <workItem from="1603989429011" duration="2846000" />
+      <workItem from="1603992525868" duration="7000" />
+      <workItem from="1603995148687" duration="4553000" />
     </task>
     <servers />
   </component>
@@ -77,14 +81,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1603823911872">
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1603992531462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603823911872" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1603823917760">
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603992531462" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1603992509469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603823917760" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603992509469" />
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1603999350254">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603999350254" />
     <state x="751" y="378" key="scopes" timestamp="1603823896301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

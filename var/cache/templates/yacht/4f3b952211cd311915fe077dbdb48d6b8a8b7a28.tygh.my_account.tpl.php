@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2020-10-27 22:22:37
+<?php /* Smarty version Smarty-3.1.21, created on 2020-10-29 22:23:33
          compiled from "C:\OpenServer\domains\cscart\design\themes\yacht\templates\blocks\my_account.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:15727199745f9718ef65f180-40231357%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '4f3b952211cd311915fe077dbdb48d6b8a8b7a28' => 
     array (
       0 => 'C:\\OpenServer\\domains\\cscart\\design\\themes\\yacht\\templates\\blocks\\my_account.tpl',
-      1 => 1603826554,
+      1 => 1603999410,
       2 => 'tygh',
     ),
   ),
@@ -24,10 +24,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'title' => 0,
     'config' => 0,
     'auth' => 0,
-    'user_info' => 0,
-    'settings' => 0,
-    'user_data' => 0,
-    'compared_products' => 0,
     'is_vendor_with_active_company' => 0,
     'return_current_url' => 0,
   ),
@@ -35,10 +31,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5f9718ef7000c7_17604862')) {function content_5f9718ef7000c7_17604862($_smarty_tpl) {?><?php if (!is_callable('smarty_function_live_edit')) include 'C:/OpenServer/domains/cscart/app/functions/smarty_plugins\\function.live_edit.php';
 if (!is_callable('smarty_block_hook')) include 'C:/OpenServer/domains/cscart/app/functions/smarty_plugins\\block.hook.php';
-if (!is_callable('smarty_modifier_count')) include 'C:/OpenServer/domains/cscart/app/functions/smarty_plugins\\modifier.count.php';
 if (!is_callable('smarty_function_set_id')) include 'C:/OpenServer/domains/cscart/app/functions/smarty_plugins\\function.set_id.php';
 ?><?php
-\Tygh\Languages\Helper::preloadLangVars(array('profile_details','downloads','orders','view_comparison_list','track_my_order','track_my_order','order_id','email','go','go_to_admin_panel','sign_out','sign_in','register','sign_in','profile_details','downloads','orders','view_comparison_list','track_my_order','track_my_order','order_id','email','go','go_to_admin_panel','sign_out','sign_in','register','sign_in'));
+\Tygh\Languages\Helper::preloadLangVars(array('sign_in','go_to_admin_panel','sign_out','sign_in','register','sign_in','go_to_admin_panel','sign_out','sign_in','register'));
 ?>
 <?php if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design']=="Y"&&@constant('AREA')=="C") {
 $_smarty_tpl->_capture_stack[0][] = array("template_content", null, null); ob_start(); ?>
@@ -66,10 +61,14 @@ if (!empty($_capture_buffer)) {
         <?php $_smarty_tpl->smarty->_tag_stack[] = array('hook', array('name'=>"profiles:my_account_menu")); $_block_repeat=true; echo smarty_block_hook(array('name'=>"profiles:my_account_menu"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
 
             <?php $_smarty_tpl->_capture_stack[0][] = array("title", null, null); ob_start(); ?>
-                <a class="ty-account-info__title" href="<?php echo htmlspecialchars(fn_url("profiles.update"), ENT_QUOTES, 'UTF-8');?>
+                <a class="ty-account-info__title d-flex justify-content-between" href="<?php echo htmlspecialchars(fn_url("profiles.update"), ENT_QUOTES, 'UTF-8');?>
 ">
-                    <i class="fas fa-bars"></i>
-                    <i class="ty-icon-moon-user"></i>
+                    <img src="images/Union.svg" alt="">
+                    <?php if ($_smarty_tpl->tpl_vars['auth']->value['user_id']) {?>
+                        <img src="images/account.png" alt="">
+                    <?php } else { ?>
+                        <img src="images/account_circle-24px 1.svg" alt="">
+                    <?php }?>
                 </a>
             <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
 if (!empty($_capture_buffer)) {
@@ -78,74 +77,46 @@ if (!empty($_capture_buffer)) {
  Smarty::$_smarty_vars['capture'][$_capture_buffer]=ob_get_clean();
 } else $_smarty_tpl->capture_error();?>
             <?php if ($_smarty_tpl->tpl_vars['auth']->value['user_id']) {?>
-                <?php if ($_smarty_tpl->tpl_vars['user_info']->value['firstname']||$_smarty_tpl->tpl_vars['user_info']->value['lastname']) {?>
-                    <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['user_info']->value['firstname'], ENT_QUOTES, 'UTF-8');?>
- <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['user_info']->value['lastname'], ENT_QUOTES, 'UTF-8');?>
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('trips');?>
 </li>
-                <?php } else { ?>
-                    <li class="ty-account-info__item ty-dropdown-box__item ty-account-info__name"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['user_info']->value['email'], ENT_QUOTES, 'UTF-8');?>
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('messages');?>
 </li>
-                <?php }?>
-                <li class="ty-account-info__item ty-dropdown-box__item"><a class="ty-account-info__a underlined" href="<?php echo htmlspecialchars(fn_url("profiles.update"), ENT_QUOTES, 'UTF-8');?>
-" rel="nofollow" ><?php echo $_smarty_tpl->__("profile_details");?>
-</a></li>
-                <?php if ($_smarty_tpl->tpl_vars['settings']->value['General']['enable_edp']=="Y") {?>
-                <li class="ty-account-info__item ty-dropdown-box__item"><a class="ty-account-info__a underlined" href="<?php echo htmlspecialchars(fn_url("orders.downloads"), ENT_QUOTES, 'UTF-8');?>
-" rel="nofollow"><?php echo $_smarty_tpl->__("downloads");?>
-</a></li>
-                <?php }?>
-            <?php } elseif ($_smarty_tpl->tpl_vars['user_data']->value['firstname']||$_smarty_tpl->tpl_vars['user_data']->value['lastname']) {?>
-                <li class="ty-account-info__item  ty-dropdown-box__item ty-account-info__name"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['user_data']->value['firstname'], ENT_QUOTES, 'UTF-8');?>
- <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['user_data']->value['lastname'], ENT_QUOTES, 'UTF-8');?>
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('saved');?>
 </li>
-            <?php } elseif ($_smarty_tpl->tpl_vars['user_data']->value['email']) {?>
-                <li class="ty-account-info__item ty-dropdown-box__item ty-account-info__name"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['user_data']->value['email'], ENT_QUOTES, 'UTF-8');?>
+
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('add_boat');?>
 </li>
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('hosts_guides');?>
+
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('hosts_community');?>
+</li>
+
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('services');?>
+</li>
+
+
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('account');?>
+</li>
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('bottom_panel.settings');?>
+</li>
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('help');?>
+</li>
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('log_out');?>
+</li>
+
             <?php }?>
-            <li class="ty-account-info__item ty-dropdown-box__item"><a class="ty-account-info__a underlined" href="<?php echo htmlspecialchars(fn_url("orders.search"), ENT_QUOTES, 'UTF-8');?>
-" rel="nofollow"><?php echo $_smarty_tpl->__("orders");?>
-</a></li>
-            <?php if ($_smarty_tpl->tpl_vars['settings']->value['General']['enable_compare_products']=='Y') {?>
-                <?php $_smarty_tpl->tpl_vars["compared_products"] = new Smarty_variable(fn_get_comparison_products(''), null, 0);?>
-                <li class="ty-account-info__item ty-dropdown-box__item"><a class="ty-account-info__a underlined" href="<?php echo htmlspecialchars(fn_url("product_features.compare"), ENT_QUOTES, 'UTF-8');?>
-" rel="nofollow"><?php echo $_smarty_tpl->__("view_comparison_list");
-if ($_smarty_tpl->tpl_vars['compared_products']->value) {?> (<?php echo htmlspecialchars(smarty_modifier_count($_smarty_tpl->tpl_vars['compared_products']->value), ENT_QUOTES, 'UTF-8');?>
-)<?php }?></a></li>
-            <?php }?>
+
         <?php $_block_content = ob_get_clean(); $_block_repeat=false; echo smarty_block_hook(array('name'=>"profiles:my_account_menu"), $_block_content, $_smarty_tpl, $_block_repeat);  } array_pop($_smarty_tpl->smarty->_tag_stack);?>
 
     </ul>
-
-    <?php if ($_smarty_tpl->tpl_vars['settings']->value['Appearance']['display_track_orders']=='Y') {?>
-        <div class="ty-account-info__orders updates-wrapper track-orders" id="track_orders_block_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
+    <div  id="login_block<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
+" class="hidden" title="<?php echo $_smarty_tpl->__("sign_in");?>
 ">
-            <form action="<?php echo htmlspecialchars(fn_url(''), ENT_QUOTES, 'UTF-8');?>
-" method="POST" class="cm-ajax cm-post cm-ajax-full-render" name="track_order_quick">
-                <input type="hidden" name="result_ids" value="track_orders_block_*" />
-                <input type="hidden" name="return_url" value="<?php echo htmlspecialchars((($tmp = @$_REQUEST['return_url'])===null||$tmp==='' ? $_smarty_tpl->tpl_vars['config']->value['current_url'] : $tmp), ENT_QUOTES, 'UTF-8');?>
-" />
+        <div class="ty-login-popup">
+            <?php echo $_smarty_tpl->getSubTemplate ("views/auth/login_form.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('style'=>"popup",'id'=>"popup".((string)$_smarty_tpl->tpl_vars['block']->value['snapping_id'])), 0);?>
 
-                <div class="ty-account-info__orders-txt"><?php echo $_smarty_tpl->__("track_my_order");?>
-</div>
-
-                <div class="ty-account-info__orders-input ty-control-group ty-input-append">
-                    <label for="track_order_item<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
-" class="cm-required hidden"><?php echo $_smarty_tpl->__("track_my_order");?>
-</label>
-                    <input type="text" size="20" class="ty-input-text cm-hint" id="track_order_item<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
-" name="track_data" value="<?php echo $_smarty_tpl->__("order_id");
-if (!$_smarty_tpl->tpl_vars['auth']->value['user_id']) {?>/<?php echo $_smarty_tpl->__("email");
-}?>" />
-                    <?php echo $_smarty_tpl->getSubTemplate ("buttons/go.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('but_name'=>"orders.track_request",'alt'=>$_smarty_tpl->__("go")), 0);?>
-
-                    <?php echo $_smarty_tpl->getSubTemplate ("common/image_verification.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('option'=>"track_orders",'align'=>"left",'sidebox'=>true), 0);?>
-
-                </div>
-            </form>
-        <!--track_orders_block_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
---></div>
-    <?php }?>
-
+        </div>
+    </div>
     <div class="ty-account-info__buttons buttons-container">
         <?php if ($_smarty_tpl->tpl_vars['auth']->value['user_id']) {?>
             <?php $_smarty_tpl->tpl_vars['is_vendor_with_active_company'] = new Smarty_variable(fn_allowed_for("MULTIVENDOR")&&($_smarty_tpl->tpl_vars['auth']->value['user_type']=="V")&&($_smarty_tpl->tpl_vars['auth']->value['company_status']=="A"), null, 0);?>
@@ -167,14 +138,7 @@ echo htmlspecialchars(fn_url("auth.login_form?return_url=".((string)$_smarty_tpl
 </a><a href="<?php echo htmlspecialchars(fn_url("profiles.add"), ENT_QUOTES, 'UTF-8');?>
 " rel="nofollow" class="ty-btn ty-btn__primary"><?php echo $_smarty_tpl->__("register");?>
 </a>
-            <div  id="login_block<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
-" class="hidden" title="<?php echo $_smarty_tpl->__("sign_in");?>
-">
-                <div class="ty-login-popup">
-                    <?php echo $_smarty_tpl->getSubTemplate ("views/auth/login_form.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('style'=>"popup",'id'=>"popup".((string)$_smarty_tpl->tpl_vars['block']->value['snapping_id'])), 0);?>
 
-                </div>
-            </div>
         <?php }?>
     </div>
 <!--account_info_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
@@ -217,10 +181,14 @@ if (!empty($_capture_buffer)) {
         <?php $_smarty_tpl->smarty->_tag_stack[] = array('hook', array('name'=>"profiles:my_account_menu")); $_block_repeat=true; echo smarty_block_hook(array('name'=>"profiles:my_account_menu"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
 
             <?php $_smarty_tpl->_capture_stack[0][] = array("title", null, null); ob_start(); ?>
-                <a class="ty-account-info__title" href="<?php echo htmlspecialchars(fn_url("profiles.update"), ENT_QUOTES, 'UTF-8');?>
+                <a class="ty-account-info__title d-flex justify-content-between" href="<?php echo htmlspecialchars(fn_url("profiles.update"), ENT_QUOTES, 'UTF-8');?>
 ">
-                    <i class="fas fa-bars"></i>
-                    <i class="ty-icon-moon-user"></i>
+                    <img src="images/Union.svg" alt="">
+                    <?php if ($_smarty_tpl->tpl_vars['auth']->value['user_id']) {?>
+                        <img src="images/account.png" alt="">
+                    <?php } else { ?>
+                        <img src="images/account_circle-24px 1.svg" alt="">
+                    <?php }?>
                 </a>
             <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
 if (!empty($_capture_buffer)) {
@@ -229,74 +197,46 @@ if (!empty($_capture_buffer)) {
  Smarty::$_smarty_vars['capture'][$_capture_buffer]=ob_get_clean();
 } else $_smarty_tpl->capture_error();?>
             <?php if ($_smarty_tpl->tpl_vars['auth']->value['user_id']) {?>
-                <?php if ($_smarty_tpl->tpl_vars['user_info']->value['firstname']||$_smarty_tpl->tpl_vars['user_info']->value['lastname']) {?>
-                    <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['user_info']->value['firstname'], ENT_QUOTES, 'UTF-8');?>
- <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['user_info']->value['lastname'], ENT_QUOTES, 'UTF-8');?>
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('trips');?>
 </li>
-                <?php } else { ?>
-                    <li class="ty-account-info__item ty-dropdown-box__item ty-account-info__name"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['user_info']->value['email'], ENT_QUOTES, 'UTF-8');?>
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('messages');?>
 </li>
-                <?php }?>
-                <li class="ty-account-info__item ty-dropdown-box__item"><a class="ty-account-info__a underlined" href="<?php echo htmlspecialchars(fn_url("profiles.update"), ENT_QUOTES, 'UTF-8');?>
-" rel="nofollow" ><?php echo $_smarty_tpl->__("profile_details");?>
-</a></li>
-                <?php if ($_smarty_tpl->tpl_vars['settings']->value['General']['enable_edp']=="Y") {?>
-                <li class="ty-account-info__item ty-dropdown-box__item"><a class="ty-account-info__a underlined" href="<?php echo htmlspecialchars(fn_url("orders.downloads"), ENT_QUOTES, 'UTF-8');?>
-" rel="nofollow"><?php echo $_smarty_tpl->__("downloads");?>
-</a></li>
-                <?php }?>
-            <?php } elseif ($_smarty_tpl->tpl_vars['user_data']->value['firstname']||$_smarty_tpl->tpl_vars['user_data']->value['lastname']) {?>
-                <li class="ty-account-info__item  ty-dropdown-box__item ty-account-info__name"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['user_data']->value['firstname'], ENT_QUOTES, 'UTF-8');?>
- <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['user_data']->value['lastname'], ENT_QUOTES, 'UTF-8');?>
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('saved');?>
 </li>
-            <?php } elseif ($_smarty_tpl->tpl_vars['user_data']->value['email']) {?>
-                <li class="ty-account-info__item ty-dropdown-box__item ty-account-info__name"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['user_data']->value['email'], ENT_QUOTES, 'UTF-8');?>
+
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('add_boat');?>
 </li>
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('hosts_guides');?>
+
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('hosts_community');?>
+</li>
+
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('services');?>
+</li>
+
+
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('account');?>
+</li>
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('bottom_panel.settings');?>
+</li>
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('help');?>
+</li>
+                <li class="ty-account-info__item  ty-account-info__name ty-dropdown-box__item"><?php echo $_smarty_tpl->__('log_out');?>
+</li>
+
             <?php }?>
-            <li class="ty-account-info__item ty-dropdown-box__item"><a class="ty-account-info__a underlined" href="<?php echo htmlspecialchars(fn_url("orders.search"), ENT_QUOTES, 'UTF-8');?>
-" rel="nofollow"><?php echo $_smarty_tpl->__("orders");?>
-</a></li>
-            <?php if ($_smarty_tpl->tpl_vars['settings']->value['General']['enable_compare_products']=='Y') {?>
-                <?php $_smarty_tpl->tpl_vars["compared_products"] = new Smarty_variable(fn_get_comparison_products(''), null, 0);?>
-                <li class="ty-account-info__item ty-dropdown-box__item"><a class="ty-account-info__a underlined" href="<?php echo htmlspecialchars(fn_url("product_features.compare"), ENT_QUOTES, 'UTF-8');?>
-" rel="nofollow"><?php echo $_smarty_tpl->__("view_comparison_list");
-if ($_smarty_tpl->tpl_vars['compared_products']->value) {?> (<?php echo htmlspecialchars(smarty_modifier_count($_smarty_tpl->tpl_vars['compared_products']->value), ENT_QUOTES, 'UTF-8');?>
-)<?php }?></a></li>
-            <?php }?>
+
         <?php $_block_content = ob_get_clean(); $_block_repeat=false; echo smarty_block_hook(array('name'=>"profiles:my_account_menu"), $_block_content, $_smarty_tpl, $_block_repeat);  } array_pop($_smarty_tpl->smarty->_tag_stack);?>
 
     </ul>
-
-    <?php if ($_smarty_tpl->tpl_vars['settings']->value['Appearance']['display_track_orders']=='Y') {?>
-        <div class="ty-account-info__orders updates-wrapper track-orders" id="track_orders_block_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
+    <div  id="login_block<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
+" class="hidden" title="<?php echo $_smarty_tpl->__("sign_in");?>
 ">
-            <form action="<?php echo htmlspecialchars(fn_url(''), ENT_QUOTES, 'UTF-8');?>
-" method="POST" class="cm-ajax cm-post cm-ajax-full-render" name="track_order_quick">
-                <input type="hidden" name="result_ids" value="track_orders_block_*" />
-                <input type="hidden" name="return_url" value="<?php echo htmlspecialchars((($tmp = @$_REQUEST['return_url'])===null||$tmp==='' ? $_smarty_tpl->tpl_vars['config']->value['current_url'] : $tmp), ENT_QUOTES, 'UTF-8');?>
-" />
+        <div class="ty-login-popup">
+            <?php echo $_smarty_tpl->getSubTemplate ("views/auth/login_form.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('style'=>"popup",'id'=>"popup".((string)$_smarty_tpl->tpl_vars['block']->value['snapping_id'])), 0);?>
 
-                <div class="ty-account-info__orders-txt"><?php echo $_smarty_tpl->__("track_my_order");?>
-</div>
-
-                <div class="ty-account-info__orders-input ty-control-group ty-input-append">
-                    <label for="track_order_item<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
-" class="cm-required hidden"><?php echo $_smarty_tpl->__("track_my_order");?>
-</label>
-                    <input type="text" size="20" class="ty-input-text cm-hint" id="track_order_item<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
-" name="track_data" value="<?php echo $_smarty_tpl->__("order_id");
-if (!$_smarty_tpl->tpl_vars['auth']->value['user_id']) {?>/<?php echo $_smarty_tpl->__("email");
-}?>" />
-                    <?php echo $_smarty_tpl->getSubTemplate ("buttons/go.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('but_name'=>"orders.track_request",'alt'=>$_smarty_tpl->__("go")), 0);?>
-
-                    <?php echo $_smarty_tpl->getSubTemplate ("common/image_verification.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('option'=>"track_orders",'align'=>"left",'sidebox'=>true), 0);?>
-
-                </div>
-            </form>
-        <!--track_orders_block_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
---></div>
-    <?php }?>
-
+        </div>
+    </div>
     <div class="ty-account-info__buttons buttons-container">
         <?php if ($_smarty_tpl->tpl_vars['auth']->value['user_id']) {?>
             <?php $_smarty_tpl->tpl_vars['is_vendor_with_active_company'] = new Smarty_variable(fn_allowed_for("MULTIVENDOR")&&($_smarty_tpl->tpl_vars['auth']->value['user_type']=="V")&&($_smarty_tpl->tpl_vars['auth']->value['company_status']=="A"), null, 0);?>
@@ -318,14 +258,7 @@ echo htmlspecialchars(fn_url("auth.login_form?return_url=".((string)$_smarty_tpl
 </a><a href="<?php echo htmlspecialchars(fn_url("profiles.add"), ENT_QUOTES, 'UTF-8');?>
 " rel="nofollow" class="ty-btn ty-btn__primary"><?php echo $_smarty_tpl->__("register");?>
 </a>
-            <div  id="login_block<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
-" class="hidden" title="<?php echo $_smarty_tpl->__("sign_in");?>
-">
-                <div class="ty-login-popup">
-                    <?php echo $_smarty_tpl->getSubTemplate ("views/auth/login_form.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('style'=>"popup",'id'=>"popup".((string)$_smarty_tpl->tpl_vars['block']->value['snapping_id'])), 0);?>
 
-                </div>
-            </div>
         <?php }?>
     </div>
 <!--account_info_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>

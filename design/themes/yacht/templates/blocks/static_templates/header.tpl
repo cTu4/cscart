@@ -24,7 +24,7 @@
                 <span>+24°C</span>
             </div>
            {capture name='content'}
-               {include file="blocks/my_account.tpl"}
+               {include file="blocks/my_account.tpl" auth=$auth}
            {/capture}
 
             {include file="blocks/wrappers/onclick_dropdown.tpl" content=$smarty.capture.content}
